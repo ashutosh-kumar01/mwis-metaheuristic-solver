@@ -1,0 +1,86 @@
+===========================================================================
+ HACKATHON SQUAD ALGORITHM EVALUATOR REPORT
+===========================================================================
+
+[ RUNNING ] input_03_path_n500.txt
+Target Score from output_03_path_n500.txt : 143362259633
+  => hackathon1.exe     | Output Score: 146179119868 >  143362259633 | VALID (Conflict-Free)
+  => hackathon2.exe     | Output Score: 146139427601 >  143362259633 | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 146157379192 >  143362259633 | VALID (Conflict-Free)
+  *** Best Performer for input_03_path_n500.txt: hackathon1.exe (Score: 146179119868) ***
+
+
+
+[ RUNNING ] input_05_cycle_n300.txt
+Target Score from output_05_cycle_n300.txt : 84212474757
+  => hackathon1.exe     | Output Score: 87350641438 >  84212474757 | VALID (Conflict-Free)
+  => hackathon2.exe     | Output Score: 87355044114 >  84212474757 | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 87350641438 >  84212474757 | VALID (Conflict-Free)
+  *** Best Performer for input_05_cycle_n300.txt: hackathon2.exe (Score: 87355044114) ***
+
+[ RUNNING ] input_06_tree_n800.txt
+Target Score from output_06_tree_n800.txt : 257869675551
+  => hackathon1.exe     | Output Score: 257930670258 >  257869675551 | VALID (Conflict-Free)
+  => hackathon2.exe     | Output Score: 257862974972 <  257869675551 | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 258832798959 >  257869675551 | VALID (Conflict-Free)
+  *** Best Performer for input_06_tree_n800.txt: hackathon_peel.exe (Score: 258832798959) ***
+
+
+
+
+[ RUNNING ] input_10_grid_25x40_n1000.txt
+Target Score from output_10_grid_25x40_n1000.txt : 240714731662
+  => hackathon1.exe     | Output Score: 262235568002 >  240714731662 | VALID (Conflict-Free)
+  => hackathon2.exe     | Output Score: 261700995620 >  240714731662 | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 262325690468 >  240714731662 | VALID (Conflict-Free)
+  *** Best Performer for input_10_grid_25x40_n1000.txt: hackathon_peel.exe (Score: 262325690468) ***
+
+ 
+
+[ RUNNING ] input_16_large_sparse_n20000_m100000.txt
+Target Score from output_16_large_sparse_n20000_m100000.txt : 3518664069942
+  => hackathon1.exe     | Output Score: 3712715016271 >  3518664069942 | VALID (Conflict-Free)
+  => hackathon2.exe     | Output Score: 3712751099942 >  3518664069942 | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 3713491268105 >  3518664069942 | VALID (Conflict-Free)
+  *** Best Performer for input_16_large_sparse_n20000_m100000.txt: hackathon_peel.exe (Score: 3713491268105) ***
+
+[ RUNNING ] input_17_large_sparse_n100000_m200000.txt
+Target Score from output_17_large_sparse_n100000_m200000.txt : 26514890153824
+  => hackathon1.exe     | Output Score: 27006712223056 >  26514890153824 | VALID (Conflict-Free)
+  => hackathon2.exe     | Output Score: 27001846502993 >  26514890153824 | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 26995386513528 >  26514890153824 | VALID (Conflict-Free)
+  *** Best Performer for input_17_large_sparse_n100000_m200000.txt: hackathon1.exe (Score: 27006712223056) ***
+
+[ RUNNING ] input_18_max_edges_sparse_n200000_m200000.txt
+Target Score from output_18_max_edges_sparse_n200000_m200000.txt : 66541503176285
+  => hackathon1.exe     | Output Score: 66894892987723 >  66541503176285 | VALID (Conflict-Free)
+  => hackathon2.exe     | Output Score: 66901765310919 >  66541503176285 | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 66938257155700 >  66541503176285 | VALID (Conflict-Free)
+  *** Best Performer for input_18_max_edges_sparse_n200000_m200000.txt: hackathon_peel.exe (Score: 66938257155700) ***
+
+
+
+[ RUNNING ] input_legacy_5.txt
+Target Score from output_legacy_5.txt : 1099989
+  => hackathon1.exe     | Output Score: 1000000 <  1099989 | VALID (Conflict-Free)
+  => hackathon2.exe     | Output Score: 1000000 <  1099989 | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 1000000 <  1099989 | VALID (Conflict-Free)
+  *** Best Performer for input_legacy_5.txt: hackathon1.exe (Score: 1000000) ***
+
+===========================================================================
+ OVERALL PERFORMANCE REPORT
+===========================================================================
+
+[hackathon1.exe]
+  Valid Conflict-Free Teams : 8/ 8
+  Beat or Met Target Score  : 3 / 8
+
+[hackathon2.exe]
+  Valid Conflict-Free Teams : 8/ 8
+  Beat or Met Target Score  : 1 / 8
+  Highest Score in Test     : 1 times
+
+[hackathon_peel.exe]
+  Valid Conflict-Free Teams : 8 / 8
+  Beat or Met Target Score  : 4 / 8
+  Highest Score in Test     : 4 times

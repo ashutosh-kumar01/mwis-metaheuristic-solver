@@ -1,0 +1,190 @@
+============================================================
+ MWIS PARALLEL ALGORITHMS EVALUATION REPORT 
+============================================================
+
+--- PERFORMANCE RANKING ---
+(Ranked by most maximum scores hit, tie-broken by total sum of all scores)
+1. Tabu_parallel: Hit Max Score 22 times (Total Cumulative Score: 99021234759748)
+2. Enhanced_SA: Hit Max Score 21 times (Total Cumulative Score: 99015269569975)
+3. ILS_GRASP: Hit Max Score 20 times (Total Cumulative Score: 98969845095295)
+
+--- WIN/TIE STATISTICS ---
+Absolute Global Maximums (Algorithm achieved a strictly higher score than BOTH others):
+  - Enhanced_SA: 1 times
+  - ILS_GRASP: 0 times
+  - Tabu_parallel: 2 times
+
+Pairwise Equality (How many times two specific algorithms tied exactly):
+  - Enhanced_SA == ILS_GRASP: 20 times
+  - Enhanced_SA == Tabu_parallel: 20 times
+  - ILS_GRASP == Tabu_parallel: 20 times
+
+  - All three algorithms tied exactly: 20 times
+
+============================================================
+ DETAILED RESULTS PER FILE 
+============================================================
+
+Input: input_01_tiny_random.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 5019777901      | 295.09    
+ILS_GRASP       | 5019777901      | 295.10    
+Tabu_parallel   | 5019777901      | 295.10    
+
+
+Input: input_02_small_sparse.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 25459785552     | 295.03    
+ILS_GRASP       | 25459785552     | 295.03    
+Tabu_parallel   | 25459785552     | 295.03    
+
+
+
+Input: input_03_path_n500.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 146289083148    | 37.96     
+ILS_GRASP       | 146289083148    | 37.94     
+Tabu_parallel   | 146289083148    | 37.94     
+
+Input: input_04_star_n400.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 193493183890    | 0.06      
+ILS_GRASP       | 193493183890    | 0.03      
+Tabu_parallel   | 193493183890    | 0.03      
+
+Input: input_05_cycle_n300.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 87358356610     | 95.56     
+ILS_GRASP       | 87358356610     | 95.56     
+Tabu_parallel   | 87358356610     | 95.64     
+
+Input: input_06_tree_n800.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 258832798959    | 71.05     
+ILS_GRASP       | 258832798959    | 71.03     
+Tabu_parallel   | 258832798959    | 71.04     
+
+Input: input_07_complete_n20.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 972874206       | 295.04    
+ILS_GRASP       | 972874206       | 295.03    
+Tabu_parallel   | 972874206       | 295.03    
+
+Input: input_08_bipartite_K200_200.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 105918675291    | 295.04    
+ILS_GRASP       | 105918675291    | 295.04    
+Tabu_parallel   | 105918675291    | 295.05    
+
+Input: input_09_disjoint_cliques_n27.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 3006487779      | 87.45     
+ILS_GRASP       | 3006487779      | 87.44     
+Tabu_parallel   | 3006487779      | 87.44     
+
+Input: input_10_grid_25x40_n1000.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 263886987500    | 295.03    
+ILS_GRASP       | 263886987500    | 295.03    
+Tabu_parallel   | 263886987500    | 295.03    
+
+Input: input_11_matching_n200.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 71179878573     | 0.05      
+ILS_GRASP       | 71179878573     | 0.03      
+Tabu_parallel   | 71179878573     | 0.03      
+
+Input: input_12_no_edges_n50.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 22660104549     | 0.04      
+ILS_GRASP       | 22660104549     | 0.03      
+Tabu_parallel   | 22660104549     | 0.03      
+
+Input: input_13_all_skills_one_n300_path.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 150             | 0.05      
+ILS_GRASP       | 150             | 0.03      
+Tabu_parallel   | 150             | 0.03      
+
+Input: input_14_skills_alternating_path300.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 150000          | 0.05      
+ILS_GRASP       | 150000          | 0.03      
+Tabu_parallel   | 150000          | 0.03      
+
+Input: input_15_small_dense_n60.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 2658054238      | 295.03    
+ILS_GRASP       | 2658054238      | 295.03    
+Tabu_parallel   | 2658054238      | 295.04    
+
+Input: input_16_large_sparse_n20000_m100000.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 3708423433543   | 295.04    
+ILS_GRASP       | 3713074388058   | 295.04    
+Tabu_parallel   | 3714015172753   | 295.04    
+
+Input: input_17_large_sparse_n100000_m200000.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 27038593930405  | 295.03    
+ILS_GRASP       | 27027286018197  | 295.03    
+Tabu_parallel   | 27038504763653  | 295.03    
+
+Input: input_18_max_edges_sparse_n200000_m200000.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 67081514901062  | 251.72    
+ILS_GRASP       | 67042747384075  | 251.72    
+Tabu_parallel   | 67081977518377  | 251.72    
+
+Input: input_legacy_1.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 20              | 295.03    
+ILS_GRASP       | 20              | 295.03    
+Tabu_parallel   | 20              | 295.03    
+
+Input: input_legacy_2.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 160             | 0.05      
+ILS_GRASP       | 160             | 0.03      
+Tabu_parallel   | 160             | 0.03      
+
+Input: input_legacy_3.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 450             | 295.03    
+ILS_GRASP       | 450             | 295.03    
+Tabu_parallel   | 450             | 295.03    
+
+Input: input_legacy_4.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 6000            | 295.04    
+ILS_GRASP       | 6000            | 295.03    
+Tabu_parallel   | 6000            | 295.03    
+
+Input: input_legacy_5.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 1099989         | 295.05    
+ILS_GRASP       | 1099989         | 295.06    
+Tabu_parallel   | 1099989         | 295.05    

@@ -1,0 +1,212 @@
+============================================================
+ MWIS NORMAL ALGORITHMS EVALUATION REPORT 
+============================================================
+
+--- PERFORMANCE RANKING ---
+(Ranked by most maximum scores hit, tie-broken by total sum of all scores)
+1. Enhanced_SA: Hit Max Score 21 times (Total Cumulative Score: 99027316127302)
+2. Tabu: Hit Max Score 21 times (Total Cumulative Score: 99024262672328)
+3. ILS_GRASP: Hit Max Score 20 times (Total Cumulative Score: 98976959053896)
+4. Peel2: Hit Max Score 19 times (Total Cumulative Score: 98889311733765)
+
+--- WIN/TIE STATISTICS ---
+Absolute Global Maximums (Algorithm achieved a strictly higher score than BOTH others):
+  - Enhanced_SA: 1 times
+  - ILS_GRASP: 0 times
+  - Tabu: 1 times
+  - Peel2: 1 times
+
+Pairwise Equality (How many times two specific algorithms tied exactly):
+  - Enhanced_SA == ILS_GRASP: 20 times
+  - Enhanced_SA == Tabu: 20 times
+  - ILS_GRASP == Tabu: 20 times
+
+  - All three algorithms tied exactly: 20 times
+
+============================================================
+ DETAILED RESULTS PER FILE 
+============================================================
+
+Input: input_01_tiny_random.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 5019777901      | 295.11    
+ILS_GRASP       | 5019777901      | 295.18    
+Tabu | 5019777901      | 295.14    
+Peel2           | 5019777901      | 295.12    
+
+Input: input_02_small_sparse.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 25459785552     | 295.03    
+ILS_GRASP       | 25459785552     | 295.03    
+Tabu 25459785552     | 295.03    
+Peel2           | 25459785552     | 295.02    
+
+Input: input_03_path_n500.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 146289083148    | 295.02    
+ILS_GRASP       | 146289083148    | 295.03    
+Tabu            | 146289083148    | 295.04    
+Peel2           | 146289083148    | 295.03    
+
+Input: input_04_star_n400.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 193493183890    | 0.05      
+ILS_GRASP       | 193493183890    | 0.03      
+Tabu            | 193493183890    | 0.03      
+Peel2           | 193493183890    | 0.03      
+
+Input: input_05_cycle_n300.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 87358356610     | 295.03    
+ILS_GRASP       | 87358356610     | 295.03    
+Tabu            | 87358356610     | 295.04    
+Peel2           | 87358356610     | 295.09    
+
+Input: input_06_tree_n800.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 258832798959    | 295.10    
+ILS_GRASP       | 258832798959    | 295.09    
+Tabu            | 258832798959    | 295.04    
+Peel2           | 258832798959    | 295.03    
+
+Input: input_07_complete_n20.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 972874206       | 295.04    
+ILS_GRASP       | 972874206       | 295.03    
+Tabu             | 972874206       | 295.03    
+Peel2           | 972874206       | 295.03    
+
+Input: input_08_bipartite_K200_200.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 105918675291    | 295.07    
+ILS_GRASP       | 105918675291    | 295.03    
+Tabu            | 105918675291    | 295.05    
+Peel2           | 105918675291    | 295.03    
+
+Input: input_09_disjoint_cliques_n27.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 3006487779      | 295.04    
+ILS_GRASP       | 3006487779      | 295.03    
+Tabu            | 3006487779      | 295.03    
+Peel2           | 3006487779      | 295.03    
+
+Input: input_10_grid_25x40_n1000.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 263886987500    | 295.03    
+ILS_GRASP       | 263886987500    | 295.03    
+Tabu            | 263886987500    | 295.03    
+Peel2           | 261875556175    | 295.03    
+
+Input: input_11_matching_n200.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 71179878573     | 0.05      
+ILS_GRASP       | 71179878573     | 0.03      
+Tabu            | 71179878573     | 0.03      
+Peel2           | 71179878573     | 0.03      
+
+Input: input_12_no_edges_n50.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 22660104549     | 0.04      
+ILS_GRASP       | 22660104549     | 0.02      
+Tabu            | 22660104549     | 0.03      
+Peel2           | 22660104549     | 0.03      
+
+Input: input_13_all_skills_one_n300_path.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 150             | 0.04      
+ILS_GRASP       | 150             | 0.02      
+Tabu | 150             | 0.03      
+Peel2           | 150             | 0.03      
+
+Input: input_14_skills_alternating_path300.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 150000          | 0.05      
+ILS_GRASP       | 150000          | 0.03      
+Tabu            | 150000          | 0.03      
+Peel2           | 150000          | 0.03      
+
+Input: input_15_small_dense_n60.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 2658054238      | 295.02    
+ILS_GRASP       | 2658054238      | 295.03    
+Tabu            | 2658054238      | 295.03    
+Peel2           | 2658054238      | 295.04    
+
+Input: input_16_large_sparse_n20000_m100000.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 3710096375247   | 295.04    
+ILS_GRASP       | 3714733657658   | 295.04    
+Tabu            | 3710543794917   | 295.18    
+Peel2           | 3715401667566   | 295.06    
+
+Input: input_17_large_sparse_n100000_m200000.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 27040779933143  | 295.04    
+ILS_GRASP       | 27027737323327  | 295.05    
+Tabu            | 27041895866183  | 295.05    
+Peel2           | 27006857453657  | 295.12    
+
+Input: input_18_max_edges_sparse_n200000_m200000.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 67089702513947  | 295.06    
+ILS_GRASP       | 67047750767946  | 295.07    
+Tabu             | 67085085706263  | 295.07    
+Peel2           | 66982326838891  | 295.08    
+
+Input: input_legacy_1.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 20              | 295.03    
+ILS_GRASP       | 20              | 295.03    
+Tabu            | 20              | 295.03    
+Peel2           | 20              | 295.03    
+
+Input: input_legacy_2.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 160             | 0.06      
+ILS_GRASP       | 160             | 0.03      
+Tabu            | 160             | 0.03      
+Peel2           | 160             | 0.03      
+
+Input: input_legacy_3.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 450             | 295.03    
+ILS_GRASP       | 450             | 295.03    
+Tabu            | 450             | 295.03    
+Peel2           | 450             | 295.03    
+
+Input: input_legacy_4.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 6000            | 295.03    
+ILS_GRASP       | 6000            | 295.03    
+Tabu            | 6000            | 295.03    
+Peel2           | 6000            | 295.03    
+
+Input: input_legacy_5.txt
+Algorithm       | Score           | Time (s)  
+---------------------------------------------
+Enhanced_SA     | 1099989         | 295.05    
+ILS_GRASP       | 1099989         | 295.05    
+Tabu            | 1099989         | 295.05    
+Peel2           | 1000000         | 295.06    

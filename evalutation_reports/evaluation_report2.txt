@@ -1,0 +1,211 @@
+===========================================================================
+ HACKATHON SQUAD ALGORITHM EVALUATOR REPORT
+===========================================================================
+
+[ RUNNING ] input_01_tiny_random.txt
+Target Score from output_01_tiny_random.txt : 5019777901
+  => hackathon1.exe     | Output Score: 5019777901 == 5019777901 | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 5019777901 == 5019777901 | VALID (Conflict-Free)
+  => mwis_enhanced_sa.exe | Output Score: 0 <  5019777901    | INVALID (Conflict Detected)
+  => mwis_ils_grasp.exe | Output Score: 0 <  5019777901    | INVALID (Conflict Detected)
+  *** Best Performer for input_01_tiny_random.txt: hackathon_peel.exe (Score: 5019777901) ***
+
+[ RUNNING ] input_02_small_sparse.txt
+Target Score from output_02_small_sparse.txt : 24857632440
+  => hackathon1.exe     | Output Score: 25459785552 >  24857632440 | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 25459785552 >  24857632440 | VALID (Conflict-Free)
+  => mwis_enhanced_sa.exe | Output Score: 0 <  24857632440   | INVALID (Conflict Detected)
+  => mwis_ils_grasp.exe | Output Score: 0 <  24857632440   | INVALID (Conflict Detected)
+  *** Best Performer for input_02_small_sparse.txt: hackathon_peel.exe (Score: 25459785552) ***
+
+[ RUNNING ] input_03_path_n500.txt
+Target Score from output_03_path_n500.txt : 143362259633
+  => hackathon1.exe     | Output Score: 146088797584 >  143362259633 | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 146155911917 >  143362259633 | VALID (Conflict-Free)
+  => mwis_enhanced_sa.exe | Output Score: 0 <  143362259633  | INVALID (Conflict Detected)
+  => mwis_ils_grasp.exe | Output Score: 0 <  143362259633  | INVALID (Conflict Detected)
+  *** Best Performer for input_03_path_n500.txt: hackathon_peel.exe (Score: 146155911917) ***
+
+[ RUNNING ] input_04_star_n400.txt
+Target Score from output_04_star_n400.txt : 193493183890
+  => hackathon1.exe     | Output Score: 193493183890 == 193493183890 | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 193493183890 == 193493183890 | VALID (Conflict-Free)
+  => mwis_enhanced_sa.exe | Output Score: 193493183890 == 193493183890 | VALID (Conflict-Free)
+  => mwis_ils_grasp.exe | Output Score: 193493183890 == 193493183890 | VALID (Conflict-Free)
+  *** Best Performer for input_04_star_n400.txt: hackathon_peel.exe (Score: 193493183890) ***
+
+[ RUNNING ] input_05_cycle_n300.txt
+Target Score from output_05_cycle_n300.txt` : 0
+  => hackathon1.exe     | Output Score: 87350641438 >  0   | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 87355044114 >  0   | VALID (Conflict-Free)
+  => mwis_enhanced_sa.exe | Output Score: 0 == 0             | INVALID (Conflict Detected)
+  => mwis_ils_grasp.exe | Output Score: 0 == 0             | INVALID (Conflict Detected)
+  *** Best Performer for input_05_cycle_n300.txt: hackathon_peel.exe (Score: 87355044114) ***
+
+[ RUNNING ] input_06_tree_n800.txt
+Target Score from output_06_tree_n800.txt : 257869675551
+  => hackathon1.exe     | Output Score: 257951515643 >  257869675551 | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 258832798959 >  257869675551 | VALID (Conflict-Free)
+  => mwis_enhanced_sa.exe | Output Score: 0 <  257869675551  | INVALID (Conflict Detected)
+  => mwis_ils_grasp.exe | Output Score: 0 <  257869675551  | INVALID (Conflict Detected)
+  *** Best Performer for input_06_tree_n800.txt: hackathon_peel.exe (Score: 258832798959) ***
+
+[ RUNNING ] input_07_complete_n20.txt
+Target Score from output_07_complete_n20.txt : 972874206
+  => hackathon1.exe     | Output Score: 972874206 == 972874206 | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 972874206 == 972874206 | VALID (Conflict-Free)
+  => mwis_enhanced_sa.exe | Output Score: 0 <  972874206     | INVALID (Conflict Detected)
+  => mwis_ils_grasp.exe | Output Score: 0 <  972874206     | INVALID (Conflict Detected)
+  *** Best Performer for input_07_complete_n20.txt: hackathon_peel.exe (Score: 972874206) ***
+
+[ RUNNING ] input_08_bipartite_K200_200.txt
+Target Score from output_08_bipartite_K200_200.txt : 105918675291
+  => hackathon1.exe     | Output Score: 105918675291 == 105918675291 | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 105918675291 == 105918675291 | VALID (Conflict-Free)
+  => mwis_enhanced_sa.exe | Output Score: 0 <  105918675291  | INVALID (Conflict Detected)
+  => mwis_ils_grasp.exe | Output Score: 0 <  105918675291  | INVALID (Conflict Detected)
+  *** Best Performer for input_08_bipartite_K200_200.txt: hackathon_peel.exe (Score: 105918675291) ***
+
+[ RUNNING ] input_09_disjoint_cliques_n27.txt
+Target Score from output_09_disjoint_cliques_n27.txt : 3006487779
+  => hackathon1.exe     | Output Score: 3006487779 == 3006487779 | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 3006487779 == 3006487779 | VALID (Conflict-Free)
+  => mwis_enhanced_sa.exe | Output Score: 0 <  3006487779    | INVALID (Conflict Detected)
+  => mwis_ils_grasp.exe | Output Score: 0 <  3006487779    | INVALID (Conflict Detected)
+  *** Best Performer for input_09_disjoint_cliques_n27.txt: hackathon_peel.exe (Score: 3006487779) ***
+
+[ RUNNING ] input_10_grid_25x40_n1000.txt
+Target Score from output_10_grid_25x40_n1000.txt : 240714731662
+  => hackathon1.exe     | Output Score: 262151362618 >  240714731662 | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 262078211962 >  240714731662 | VALID (Conflict-Free)
+  => mwis_enhanced_sa.exe | Output Score: 0 <  240714731662  | INVALID (Conflict Detected)
+  => mwis_ils_grasp.exe | Output Score: 0 <  240714731662  | INVALID (Conflict Detected)
+  *** Best Performer for input_10_grid_25x40_n1000.txt: hackathon1.exe (Score: 262151362618) ***
+
+[ RUNNING ] input_11_matching_n200.txt
+Target Score from output_11_matching_n200.txt : 71179878573
+  => hackathon1.exe     | Output Score: 71179878573 == 71179878573 | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 71179878573 == 71179878573 | VALID (Conflict-Free)
+  => mwis_enhanced_sa.exe | Output Score: 71179878573 == 71179878573 | VALID (Conflict-Free)
+  => mwis_ils_grasp.exe | Output Score: 71179878573 == 71179878573 | VALID (Conflict-Free)
+  *** Best Performer for input_11_matching_n200.txt: hackathon_peel.exe (Score: 71179878573) ***
+
+[ RUNNING ] input_12_no_edges_n50.txt
+Target Score from output_12_no_edges_n50.txt : 22660104549
+  => hackathon1.exe     | Output Score: 22660104549 == 22660104549 | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 22660104549 == 22660104549 | VALID (Conflict-Free)
+  => mwis_enhanced_sa.exe | Output Score: 22660104549 == 22660104549 | VALID (Conflict-Free)
+  => mwis_ils_grasp.exe | Output Score: 22660104549 == 22660104549 | VALID (Conflict-Free)
+  *** Best Performer for input_12_no_edges_n50.txt: hackathon_peel.exe (Score: 22660104549) ***
+
+[ RUNNING ] input_13_all_skills_one_n300_path.txt
+Target Score from output_13_all_skills_one_n300_path.txt : 150
+  => hackathon1.exe     | Output Score: 150 == 150         | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 150 == 150         | VALID (Conflict-Free)
+  => mwis_enhanced_sa.exe | Output Score: 150 == 150         | VALID (Conflict-Free)
+  => mwis_ils_grasp.exe | Output Score: 150 == 150         | VALID (Conflict-Free)
+  *** Best Performer for input_13_all_skills_one_n300_path.txt: hackathon_peel.exe (Score: 150) ***
+
+[ RUNNING ] input_14_skills_alternating_path300.txt
+Target Score from output_14_skills_alternating_path300.txt : 150000
+  => hackathon1.exe     | Output Score: 150000 == 150000   | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 150000 == 150000   | VALID (Conflict-Free)
+  => mwis_enhanced_sa.exe | Output Score: 150000 == 150000   | VALID (Conflict-Free)
+  => mwis_ils_grasp.exe | Output Score: 150000 == 150000   | VALID (Conflict-Free)
+  *** Best Performer for input_14_skills_alternating_path300.txt: hackathon_peel.exe (Score: 150000) ***
+
+[ RUNNING ] input_15_small_dense_n60.txt
+Target Score from output_15_small_dense_n60.txt : 2442843447
+  => hackathon1.exe     | Output Score: 2658054238 >  2442843447 | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 2658054238 >  2442843447 | VALID (Conflict-Free)
+  => mwis_enhanced_sa.exe | Output Score: 0 <  2442843447    | INVALID (Conflict Detected)
+  => mwis_ils_grasp.exe | Output Score: 0 <  2442843447    | INVALID (Conflict Detected)
+  *** Best Performer for input_15_small_dense_n60.txt: hackathon_peel.exe (Score: 2658054238) ***
+
+[ RUNNING ] input_16_large_sparse_n20000_m100000.txt
+Target Score from output_16_large_sparse_n20000_m100000.txt : 3518664069942
+  => hackathon1.exe     | Output Score: 3716831645891 >  3518664069942 | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 3716023832325 >  3518664069942 | VALID (Conflict-Free)
+  => mwis_enhanced_sa.exe | Output Score: 0 <  3518664069942 | INVALID (Conflict Detected)
+  => mwis_ils_grasp.exe | Output Score: 0 <  3518664069942 | INVALID (Conflict Detected)
+  *** Best Performer for input_16_large_sparse_n20000_m100000.txt: hackathon1.exe (Score: 3716831645891) ***
+
+[ RUNNING ] input_17_large_sparse_n100000_m200000.txt
+Target Score from output_17_large_sparse_n100000_m200000.txt : 26514890153824
+  => hackathon1.exe     | Output Score: 27001804191909 >  26514890153824 | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 26998177599404 >  26514890153824 | VALID (Conflict-Free)
+  => mwis_enhanced_sa.exe | Output Score: 0 <  26514890153824 | INVALID (Conflict Detected)
+  => mwis_ils_grasp.exe | Output Score: 0 <  26514890153824 | INVALID (Conflict Detected)
+  *** Best Performer for input_17_large_sparse_n100000_m200000.txt: hackathon1.exe (Score: 27001804191909) ***
+
+[ RUNNING ] input_18_max_edges_sparse_n200000_m200000.txt
+Target Score from output_18_max_edges_sparse_n200000_m200000.txt : 66541503176285
+  => hackathon1.exe     | Output Score: 66899256814086 >  66541503176285 | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 66939548311928 >  66541503176285 | VALID (Conflict-Free)
+  => mwis_enhanced_sa.exe | Output Score: 0 <  66541503176285 | INVALID (Conflict Detected)
+  => mwis_ils_grasp.exe | Output Score: 0 <  66541503176285 | INVALID (Conflict Detected)
+  *** Best Performer for input_18_max_edges_sparse_n200000_m200000.txt: hackathon_peel.exe (Score: 66939548311928) ***
+
+[ RUNNING ] input_legacy_1.txt
+Target Score from output_legacy_1.txt : 20
+  => hackathon1.exe     | Output Score: 20 == 20           | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 20 == 20           | VALID (Conflict-Free)
+  => mwis_enhanced_sa.exe | Output Score: 20 == 20           | VALID (Conflict-Free)
+  => mwis_ils_grasp.exe | Output Score: 20 == 20           | VALID (Conflict-Free)
+  *** Best Performer for input_legacy_1.txt: hackathon_peel.exe (Score: 20) ***
+
+[ RUNNING ] input_legacy_2.txt
+Target Score from output_legacy_2.txt : 160
+  => hackathon1.exe     | Output Score: 160 == 160         | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 160 == 160         | VALID (Conflict-Free)
+  => mwis_enhanced_sa.exe | Output Score: 160 == 160         | VALID (Conflict-Free)
+  => mwis_ils_grasp.exe | Output Score: 160 == 160         | VALID (Conflict-Free)
+  *** Best Performer for input_legacy_2.txt: hackathon_peel.exe (Score: 160) ***
+
+[ RUNNING ] input_legacy_3.txt
+Target Score from output_legacy_3.txt : 450
+  => hackathon1.exe     | Output Score: 450 == 450         | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 450 == 450         | VALID (Conflict-Free)
+  => mwis_enhanced_sa.exe | Output Score: 0 <  450           | INVALID (Conflict Detected)
+  => mwis_ils_grasp.exe | Output Score: 0 <  450           | INVALID (Conflict Detected)
+  *** Best Performer for input_legacy_3.txt: hackathon_peel.exe (Score: 450) ***
+
+[ RUNNING ] input_legacy_4.txt
+Target Score from output_legacy_4.txt : 6000
+  => hackathon1.exe     | Output Score: 6000 == 6000       | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 6000 == 6000       | VALID (Conflict-Free)
+  => mwis_enhanced_sa.exe | Output Score: 0 <  6000          | INVALID (Conflict Detected)
+  => mwis_ils_grasp.exe | Output Score: 0 <  6000          | INVALID (Conflict Detected)
+  *** Best Performer for input_legacy_4.txt: hackathon_peel.exe (Score: 6000) ***
+
+[ RUNNING ] input_legacy_5.txt
+Target Score from output_legacy_5.txt : 1099989
+  => hackathon1.exe     | Output Score: 1000000 <  1099989 | VALID (Conflict-Free)
+  => hackathon_peel.exe | Output Score: 1000000 <  1099989 | VALID (Conflict-Free)
+  => mwis_enhanced_sa.exe | Output Score: 0 <  1099989       | INVALID (Conflict Detected)
+  => mwis_ils_grasp.exe | Output Score: 0 <  1099989       | INVALID (Conflict Detected)
+  *** Best Performer for input_legacy_5.txt: hackathon_peel.exe (Score: 1000000) ***
+
+===========================================================================
+ OVERALL PERFORMANCE REPORT
+===========================================================================
+
+[hackathon1.exe]
+  Valid Conflict-Free Teams : 23 / 23
+  Beat or Met Target Score  : 22 / 23
+  Highest Score in Test     : 3 times
+
+[hackathon_peel.exe]
+  Valid Conflict-Free Teams : 23 / 23
+  Beat or Met Target Score  : 22 / 23
+  Highest Score in Test     : 20 times
+
+[mwis_enhanced_sa.exe]
+  Valid Conflict-Free Teams : 7 / 23
+  Beat or Met Target Score  : 7 / 23
+  Highest Score in Test     : 0 times
+
+[mwis_ils_grasp.exe]
+  Valid Conflict-Free Teams : 7 / 23
+  Beat or Met Target Score  : 7 / 23
+  Highest Score in Test     : 0 times
