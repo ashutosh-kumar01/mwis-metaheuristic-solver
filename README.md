@@ -119,11 +119,11 @@ Parallel versions solve multiple connected components simultaneously using OpenM
 graph TD;
     A[Input Graph] --> B[Graph Reduction];
     B -->|Peeling Rules| C[Reduced Graph];
-    C --> D[Connected Component Decomposition];
+    C --> D[Component Decomposition];
     D --> E[Independent Components];
     E --> F[Time Allocation];
     F --> G[Initial Solution Construction];
-    G --> H[Metaheuristic Optimization];
+    G --> H[Metaheuristic Solver];
     H --> I[Final MWIS Solution];
 ```
 ---
@@ -155,6 +155,7 @@ The two variants differ only in the greedy scoring function:
 
 The square-root version penalizes high-degree vertices less aggressively and often preserves heavy vertices that would otherwise be rejected by the standard density metric.
 
+---
 
 ### Stage 2: Graph Peeling and Component Decomposition
 
@@ -273,6 +274,7 @@ This creates a clear separation between:
 
 The resulting solver provides a strong alternative to Simulated Annealing-based approaches.
 
+---
 
 ### Stage 7: Parallel Solvers
 
